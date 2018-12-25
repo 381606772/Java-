@@ -1,0 +1,13 @@
+1.拷贝的引入
+（1）引用拷贝
+  创建一个指向对象的引用变量的拷贝。
+  例1：
+  Teacher teacher = new Teacher("Taylor",26);
+  Teacher otherteacher = teacher;
+  System.out.println(teacher);
+  System.out.println(otherteacher);
+  
+  输出结果：
+  blog.Teacher@355da254
+  blog.Teacher@355da254
+  
